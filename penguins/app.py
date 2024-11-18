@@ -190,8 +190,4 @@ def server(input: Inputs, output, session):
         )
         return fig
 
-app = App(ui=app_ui, server=server)
-
-if __name__ == "__main__":
-    app.run()
 
